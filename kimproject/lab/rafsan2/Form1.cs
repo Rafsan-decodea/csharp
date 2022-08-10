@@ -108,7 +108,7 @@ namespace rafsan2
                     else
                     {
                         for (int i = ME.Items.Count - 1; i >= 0; i--)// This is cheking if There is  Duplicate Value
-                        {
+                        { 
                             if (ME.Items.IndexOf(ME.Items[i].ToString()) < i)
                             {
                                 ME.Items.Add(stuname.Text + "-" + stuid.Text + "-" + departmentcomboBox.Text);
