@@ -61,6 +61,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "LAB5";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // bar
             // 
@@ -72,7 +73,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "bar";
-            this.Text = "Rafsan Jani Projects";
+            this.Text = "             Rafsan Jani Lab Projects";
             this.Load += new System.EventHandler(this.bar_Load);
             this.ResumeLayout(false);
 

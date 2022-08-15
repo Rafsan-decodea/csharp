@@ -111,5 +111,11 @@ namespace rafsan2
             lab4 lab4 = new lab4();
             lab4.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            lab5 lab5 = new lab5();
+            lab5.Show();
+        }
     }
 }
