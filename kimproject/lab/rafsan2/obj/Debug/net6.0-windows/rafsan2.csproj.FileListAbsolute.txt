@@ -21,6 +21,9 @@ C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\bin\Debug\net6.0-
 C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\bin\Debug\net6.0-windows\rafsan2.dll
 C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\bin\Debug\net6.0-windows\rafsan2.pdb
 C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\obj\Debug\net6.0-windows\rafsan2.csproj.AssemblyReference.cache
+C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\obj\Debug\net6.0-windows\rafsan2.lab3.resources
+C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\obj\Debug\net6.0-windows\rafsan2.lab4.resources
+C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\obj\Debug\net6.0-windows\rafsan2.lab5.resources
 C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\obj\Debug\net6.0-windows\rafsan2.bar.resources
 C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\obj\Debug\net6.0-windows\rafsan2.csproj.GenerateResource.cache
 C:\Users\rafsanjani\Desktop\data\csharp\kimproject\lab\rafsan2\obj\Debug\net6.0-windows\rafsan2.GeneratedMSBuildEditorConfig.editorconfig

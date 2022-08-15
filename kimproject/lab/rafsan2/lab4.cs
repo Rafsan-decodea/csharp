@@ -1,72 +1,18 @@
-namespace rafsan2
+﻿namespace rafsan2
 {
-    public partial class bar : Form
+    public partial class lab4 : Form
     {
-        public bar()
+        public lab4()
         {
             InitializeComponent();
         }
 
-        private void bar_Load(object sender, EventArgs e)
+        private void facultycomboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double text1 = Convert.ToDouble(fristnumber.Text);
-            double text2 = Convert.ToDouble(secoundnumber.Text);
-            double result = text1 + text2;
-            resultshow.Text = result.ToString();
-
-        }
-
-        private void label1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void text1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
+        private void submit_Click(object sender, EventArgs e)
         {
             if (facultycomboBox.Text == "EEE")
             {
@@ -108,7 +54,7 @@ namespace rafsan2
                     else
                     {
                         for (int i = ME.Items.Count - 1; i >= 0; i--)// This is cheking if There is  Duplicate Value
-                        { 
+                        {
                             if (ME.Items.IndexOf(ME.Items[i].ToString()) < i)
                             {
                                 ME.Items.Add(stuname.Text + "-" + stuid.Text + "-" + departmentcomboBox.Text);
@@ -127,7 +73,8 @@ namespace rafsan2
                 }
 
             }
-            else if(facultycomboBox.Text=="CE") {
+            else if (facultycomboBox.Text == "CE")
+            {
 
                 if (departmentcomboBox.Text == "CE" || departmentcomboBox.Text == "ARCH")
                 {
@@ -158,16 +105,6 @@ namespace rafsan2
 
 
             }
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void EEE_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
