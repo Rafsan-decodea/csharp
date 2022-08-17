@@ -79,10 +79,36 @@
                     MessageBox.Show("Invalide Department");
                 }
 
-                string data = "Faculty = ME || Department" + department;
-                resultbox.Items.Add(data);
+                string data1 = "Faculty = ME || Department" + department;
+                resultbox.Items.Add(data1);
             }
 
+            if (facultyce.Checked)
+            {
+
+                string department = "";
+                if (departme.Checked && departarch.Checked)
+                {
+                    department = department + " " + departce.Text + " AND " + departarch.Text;
+
+                }
+                else if (departce.Checked)
+                {
+                    department = department + departce.Text;
+                }
+                else if (departarch.Checked)
+                {
+                    department = department + departarch.Text;
+                }
+                else
+                {
+                    MessageBox.Show("Invalide Department");
+                }
+                
+
+                string data2 = "Faculty = CE || Department" + department;
+                resultbox.Items.Add(data2);
+            }
 
         }
     }
